@@ -12,17 +12,16 @@ OUT_DIR="${2:-SPDA_Pontos}"
 command -v qrencode >/dev/null 2>&1 || { echo "Erro: qrencode não encontrado. Instale"; exit 1; }
 
 mkdir -p "$OUT_DIR"
+
 # Copiar gerador de links
 cp qr.sh "$OUT_DIR"
 chmod +x "$OUT_DIR"/qr.sh
 touch "$OUT_DIR"/links.txt
+
 # Sepuku preparations
 echo "rm links.txt" >> "$OUT_DIR"/qr.sh
 echo "rm qr.sh" >> "$OUT_DIR"/qr.sh
-
 # Medida de seguranca contra suicidio precipitado
-
-
 
 INDEX_FILE="$OUT_DIR/indice_pontos.csv"
 echo "Código,Pasta,Cliente,Unidade,Área,Tipo" > "$INDEX_FILE"
