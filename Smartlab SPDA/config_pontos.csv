@@ -1,0 +1,4 @@
+Cliente,SiglaCliente,Unidade,SiglaUnidade,Area,SiglaArea,Tipo,SiglaTipo,Quantidade,Descricao
+RZ Amazing,AMD,Planta1,PL1,Tanques,TQ,Caixa de inspeçao,CI,2,Caixas proximas ao tanque A
+RZ Amazing,AMD,Planta1,PL1,Tanques,TQ,Descida,DESC,1,Descida do para-raios do tanque
+RZ Amazing,AMD,Planta1,PL1,Estrutura Metalica,EM,Captor,CAP,1,Captor no topo da torre
