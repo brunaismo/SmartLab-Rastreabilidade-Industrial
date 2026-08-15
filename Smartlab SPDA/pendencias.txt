@@ -1,1 +1,1 @@
-Criar grapicos dentro do arquivo inspecao.cvs
+Criar graficos dentro do arquivo inspecao.cvs
