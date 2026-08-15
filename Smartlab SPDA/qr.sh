@@ -46,7 +46,7 @@ if [[ $pair_count -eq 0 ]]; then
     exit 0
 fi
 
-# mismatch waring
+# mismatch warning
 if [[ $link_count -ne $folder_count ]]; then
     echo "Warning: Number of links ($link_count) differs from number of folders ($folder_count)."
     echo "Only the first $pair_count pairs will be processed."
