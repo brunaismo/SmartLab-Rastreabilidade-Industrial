@@ -1,15 +1,15 @@
 # SmartLab: Rastreabilidade Industrial
 
 Sistema desenvolvido como parte de uma avaliação para a cadeira de Análise e Processamento de Sinais para **automatizar a criação e organização de pontos de inspeção de SPDA (Sistema de Proteção contra Descargas Atmosféricas)**, utilizando arquivos estáticos, Bash e armazenamento em nuvem.
-A solução permite gerar automaticamente a estrutura de diretórios, arquivos de inspeção e **QR Codes** vinculados a cada ponto físico, facilitando o acesso e o registro das informações durante as atividades de campo.
+Gera automaticamente a estrutura de diretórios para arquivos e inspeção e **QR Codes** vinculados a cada ponto físico, facilitando o mapeamento, acesso e o registro de informações durante atividades de campo.
 
 ## Arquitetura
 
-O sistema utiliza uma arquitetura **serverless e baseada em arquivos estáticos**, sem a necessidade de um banco de dados ou de uma aplicação web complexa.
+O sistema utiliza uma arquitetura **serverless e baseada em arquivos estáticos**, sem utilizar banco de dados ou uma aplicação web.
 
-A solução é composta por scripts **Bash**, responsáveis pela automação da geração da estrutura de dados, enquanto o **Google Drive** atua como camada de armazenamento e colaboração.
+A solução é composta por scripts **Bash**, enquanto o **Google Drive** atua como camada de armazenamento.
 
-Essa abordagem permite que os dados sejam acessados tanto em **computadores quanto em dispositivos móveis**.
+Essa abordagem permite acesso tanto em **computadores quanto em dispositivos móveis**.
 
 ## Camadas do Sistema
 
@@ -33,7 +33,7 @@ O usuário define nesse arquivo a quantidade de pontos desejada para cada combin
 ### 2. Camada de Processamento
 
 O script `gerar_pontos.sh` funciona como o **gerador de instâncias do sistema** interpretando os dados do arquivo .CSV  e criando a árvore
-de diretórios dinamicamente.
+de diretórios.
 
 ---
 
