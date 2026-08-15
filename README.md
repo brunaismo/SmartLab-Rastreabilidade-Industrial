@@ -5,7 +5,7 @@ Gera automaticamente a estrutura de diretórios para arquivos e inspeção e **Q
 
 ## Arquitetura
 
-O sistema utiliza uma arquitetura **serverless e baseada em arquivos estáticos**, sem utilizar banco de dados ou uma aplicação web.
+O sistema utiliza uma arquitetura **baseada em arquivos estáticos**, sem utilizar uma aplicação web.
 
 A solução é composta por scripts **Bash**, enquanto o **Google Drive** atua como camada de armazenamento.
 
