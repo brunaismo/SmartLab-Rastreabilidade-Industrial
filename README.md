@@ -91,7 +91,7 @@ Durante a execução, o script identifica as pastas recém-criadas e gera automa
 QR.png
 ```
 
-Cada QR Code contém uma **URL pública direcionada diretamente para a pasta correspondente ao ponto no Google Drive**.
+Cada QR Code contém uma **URL pública direcionada diretamente para a pasta correspondente ao ponto**.
 
 ---
 
@@ -105,7 +105,7 @@ O técnico escaneia o **QR Code** instalado no ponto físico de SPDA utilizando 
 
 ### 2. Acesso
 
-O dispositivo abre automaticamente a pasta correspondente no **Google Drive**.
+O dispositivo abre automaticamente a pasta no navegador web.
 
 ### 3. Registro da Inspeção
 
