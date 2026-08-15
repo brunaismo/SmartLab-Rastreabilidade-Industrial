@@ -11,7 +11,7 @@ A solução é composta por scripts **Bash**, responsáveis pela automação da 
 
 Essa abordagem permite que os dados sejam acessados tanto em **computadores quanto em dispositivos móveis**.
 
-## 🧩 Camadas do Sistema
+## Camadas do Sistema
 
 O sistema é dividido em três camadas principais:
 
