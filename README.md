@@ -1,6 +1,6 @@
 # SmartLab: Rastreabilidade Industrial
 
-Sistema desenvolvido foi feito como parte de uma tarefa para a cadeira de Análise e Processamento de Sinais para **automatizar a criação e organização de pontos de inspeção de SPDA (Sistema de Proteção contra Descargas Atmosféricas)**, utilizando arquivos estáticos, Bash e armazenamento em nuvem.
+Sistema desenvolvido como parte de uma avaliação para a cadeira de Análise e Processamento de Sinais para **automatizar a criação e organização de pontos de inspeção de SPDA (Sistema de Proteção contra Descargas Atmosféricas)**, utilizando arquivos estáticos, Bash e armazenamento em nuvem.
 A solução permite gerar automaticamente a estrutura de diretórios, arquivos de inspeção e **QR Codes** vinculados a cada ponto físico, facilitando o acesso e o registro das informações durante as atividades de campo.
 
 ## Arquitetura
