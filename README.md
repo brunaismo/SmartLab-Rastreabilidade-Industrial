@@ -99,7 +99,7 @@ Durante a execução, o script identifica as pastas recém-criadas e gera automa
 QR.png
 ```
 
-Cada QR Code contém uma **URL pública direcionada diretamente para a pasta correspondente ao ponto no Google Drive**. Dessa forma, o código pode ser afixado fisicamente no ponto de inspeção.
+Cada QR Code contém uma **URL pública direcionada diretamente para a pasta correspondente ao ponto no Google Drive**.
 
 ---
 
@@ -133,7 +133,7 @@ Após preencher os dados, o arquivo atualizado é enviado novamente para a mesma
 
 # Questionamentos:
 
-### O sistema pode utilizar Microsoft em vez do Google?
+### O sistema pode utilizar Microsoft OneDrive em vez do Google Drive?
 
 **Sim.**
 
@@ -157,5 +157,3 @@ https://onedrive.live.com/...
 **Sim.**
 
 O sistema não depende de um banco de dados centralizado. Dessa forma, cada empresa pode possuir sua própria estrutura de armazenamento. Cada empresa mantém seus dados isolados em sua própria estrutura de armazenamento, reduzindo o risco de mistura de informações.
-
-A mesma abordagem pode ser utilizada com **OneDrive ou outro serviço de armazenamento compatível**.
