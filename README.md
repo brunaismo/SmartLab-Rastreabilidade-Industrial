@@ -2,7 +2,8 @@
 
 Sistema desenvolvido como parte de uma avaliação para a cadeira de Análise e Processamento de Sinais para **automatizar a criação e organização de pontos de inspeção de SPDA (Sistema de Proteção contra Descargas Atmosféricas)**, utilizando **Bash** e armazenamento em nuvem do **Google Drive** sem precisar de aplicação web.
 Gera automaticamente a estrutura de diretórios para arquivos e inspeção e **QR Codes** vinculados a cada ponto físico, facilitando o mapeamento, acesso e o registro de informações durante atividades de campo.
-Segue o principio de que a soluçao mais simples è a melhor solução, ao ponto onde o sistema e diretorios resultantes (exceto imagens) ocupam tão pouco armazenamento para caber em um disquete, ou ate mesmo um cartucho de NES, multiplas vezes.
+
+Segue o princípio de que a solução mais simples é a melhor solução, ao ponto onde o sistema e diretórios resultantes (exceto imagens) ocupam tão pouco armazenamento ao ponto de caber em um disquete, ou ate mesmo um cartucho de NES, multiplas vezes.
 
 ## Camadas do Sistema
 
